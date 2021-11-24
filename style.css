@@ -1,0 +1,62 @@
+img {
+  width:100%;
+  margin: auto;
+}
+body {
+  background-image: url("https://news.mit.edu/sites/default/files/images/202107/dne-broken.jpg");
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.outputwrapper{
+  overflow: auto;
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  padding-left: 17px;
+  padding-right: 17px;
+  position:fixed; 
+  right:10px; 
+  bottom:10px; 
+  width:50%
+}
+.button{
+  background-color: #943652;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#getinput{
+  padding: 12px 20px;
+  margin: 8px 10px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+  overflow: auto;
+  width: 230px;
+  text-align: center;
+}
+#label{
+  font-family: Arial;
+  font-weight: bold;
+}
+h1{
+  text-align: center;
+}
+p{
+  font-family: calibri;
+}
+/* .input{
+  width: 200px;
+  
+} */
